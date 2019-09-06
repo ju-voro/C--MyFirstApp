@@ -82,7 +82,7 @@ namespace MyFirstConsoleApp
             Console.Write("Choose the card: 1, 2 or 3: ");
             string userInput = Console.ReadLine();
 
-
+            //ternary operator
             string price = (userInput == "1") ? "a new car" : "a can opener";
             /*  Console.Write("You won ");
              Console.Write(price);
